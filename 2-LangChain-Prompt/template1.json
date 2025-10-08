@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "style_input",
+        "topic"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Please tell me about \"{topic}\" with following specification:\n                          Explanation Style: {style_input}\n                          Explanation Length: {length_input}\n                          1. Detail Explanation\n                          2. Summary of the explanation.\n                          3. Alternatives if any.",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
